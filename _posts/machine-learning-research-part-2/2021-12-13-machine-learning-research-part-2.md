@@ -8,7 +8,7 @@ In the last post we explained the basics of machine learning, as result of our r
 
 Linear classifier models make the assumption that labels are predicted by a linear combination of features. Their general form is:
 
-![Untitled](9%20Machine%20Learning%20Research%20Part%202%20497fbe7c89f34f968ed4cb1ad7026c47/Untitled.png)
+![Untitled](/assets/9%20Machine%20Learning%20Research%20Part%202%20497fbe7c89f34f968ed4cb1ad7026c47/Untitled.png)
 
 Using a model with $n$ features and $m$ labels:
 
@@ -41,7 +41,7 @@ Linear regression approximates a simple linear combination using the identity fu
 
 Gradient descent is a general method for finding local minima of a function. It works by travelling in the opposite direction to the gradient at a given point. 
 
-![Untitled](9%20Machine%20Learning%20Research%20Part%202%20497fbe7c89f34f968ed4cb1ad7026c47/Untitled%201.png)
+![Untitled](/assets/9%20Machine%20Learning%20Research%20Part%202%20497fbe7c89f34f968ed4cb1ad7026c47/Untitled%201.png)
 
 Written as an iterative formula,
 
