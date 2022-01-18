@@ -10,9 +10,9 @@ One challenge of building modern *web* applications is the minimal native suppor
 
 The first problem is most significant. For lower power devices and users with slow internet connections, a web app’s resource size can become significant. Consider for example, the Lighthouse report for [https://medium.com](https://medium.com) (popular blogging platform):
 
-![Untitled](5%20Lightweight%20and%20progressive%20apps%201d4eda50b5fc4a79848ee4fc73082d06/Untitled.png)
+![Untitled](/assets/5%20Lightweight%20and%20progressive%20apps%201d4eda50b5fc4a79848ee4fc73082d06/Untitled.png)
 
-![Untitled](5%20Lightweight%20and%20progressive%20apps%201d4eda50b5fc4a79848ee4fc73082d06/Untitled%201.png)
+![Untitled](/assets/5%20Lightweight%20and%20progressive%20apps%201d4eda50b5fc4a79848ee4fc73082d06/Untitled%201.png)
 
 This low performance score is typical of many modern websites. While frameworks don’t always lead to bad scores, it’s far easier to introduce overhead when using a framework. 
 
@@ -35,17 +35,17 @@ The popular messaging app *Telegram* was originally released as a for mobile dev
 
 Of course, the frameworkless implementation (Telegram Web K) peaked our interest. Their approach was to implement components as functions that return HTML nodes. Each component defined necessary event listeners and logic, intermixed with explicitly constructing the component’s DOM. The main success of this approach was the easy composition of components. However, the approach wasn’t declarative, contributing to less readable code. They could’ve also achieved better separation of view and model code by using Web Components. Nonetheless, the project was an impressive demonstration of how native JavaScript *can* be used to build modern apps, with a small penalty on code quality.
 
-![Untitled](5%20Lightweight%20and%20progressive%20apps%201d4eda50b5fc4a79848ee4fc73082d06/Untitled%202.png)
+![Untitled](/assets/5%20Lightweight%20and%20progressive%20apps%201d4eda50b5fc4a79848ee4fc73082d06/Untitled%202.png)
 
 ### 2. Flutter
 
 A second, larger source of inspiration for us was Google’s multiplatform framework, *Flutter*. Flutter can compile an app written in Dart to native IOS, Android and JavaScript code. What we found inspirational, was their approach to building layouts declaratively. Here’s an example of a Flutter widget:
 
-![Untitled](5%20Lightweight%20and%20progressive%20apps%201d4eda50b5fc4a79848ee4fc73082d06/Untitled%203.png)
+![Untitled](/assets/5%20Lightweight%20and%20progressive%20apps%201d4eda50b5fc4a79848ee4fc73082d06/Untitled%203.png)
 
 Flutter widgets use the innate composability of functions to describe layouts declaratively. We realised the same idea could be easily translated to JavaScript. However, we were still lacking a solution to the reactivity problem. Consider the following react component:
 
-![Untitled](5%20Lightweight%20and%20progressive%20apps%201d4eda50b5fc4a79848ee4fc73082d06/Untitled%204.png)
+![Untitled](/assets/5%20Lightweight%20and%20progressive%20apps%201d4eda50b5fc4a79848ee4fc73082d06/Untitled%204.png)
 
 In this component, any changes to `state.clicks` will cause the button to re-render. Now, we could quite easily mimic this behaviour with Web Components by simply re-rendering whenever state is changed. The problem is that re-rendering *the whole* DOM for a component is inefficient and sometimes just plain wrong. Two examples:
 
@@ -63,25 +63,25 @@ Observer is usually implemented like so:
 ```jsx
 class Observable {
 
-		constructor() {
-				this.observers = []
-		}
+    constructor() {
+        this.observers = []
+    }
 
-		notify(event) {
-				this.observers.forEach(observer => observer.observe(event))
-		}
+    notify(event) {
+        this.observers.forEach(observer => observer.observe(event))
+    }
 
-		subscribe(observer) {
-				this.observers.push(observer)
-		}
+    subscribe(observer) {
+        this.observers.push(observer)
+    }
 }
 ```
 
 ```jsx
 class Observer {
-		constructor(observe) {
-				this.observe = observe
-		}
+    constructor(observe) {
+        this.observe = observe
+    }
 }
 ```
 
@@ -113,10 +113,10 @@ The final insight was then to make components take in observable variables *rath
 ```jsx
 function Text(text) {
 
-		const node = document.createElement('span')
-		text.on(text => node.innerText = text)
+    const node = document.createElement('span')
+    text.on(text => node.innerText = text)
 
-		return node
+    return node
 }
 ```
 
@@ -143,12 +143,12 @@ We have a simple declarative way to achieve modularity, encapsulation and reacti
 
 ```jsx
 function App() {
-		const name = use('Alice')
-		
-		return div(
-				div(f`hello my name is ${name}, nice to meet you.`),
-				input(name)
-		)
+    const name = use('Alice')
+    
+    return div(
+        div(f`hello my name is ${name}, nice to meet you.`),
+        input(name)
+    )
 }
 ```
 
@@ -156,13 +156,13 @@ Compare with the equivalent React component:
 
 ```jsx
 function App() {
-		const [name, setName] = useState('Alice')
+    const [name, setName] = useState('Alice')
 
-		return (
-				<div>
-						<div>hello my name is {name}, nice to meet you.</div>
-						<input oninput={value => setName(value)}>
-				</div>
-		)
+    return (
+        <div>
+            <div>hello my name is {name}, nice to meet you.</div>
+            <input oninput={value => setName(value)}>
+        </div>
+    )
 }
 ```
