@@ -1,7 +1,7 @@
 # Site settings
 title: Klise Theme # site title
 description: >- # site description
-  Welcome to NudgeShare's development blog. NudgeShare is a progressive web application designed to empower people to take control over their personal health. It's planned features are symptom checking, symptom tracking and health data visualisation. It will also be able to predict how your health might change in future based on past observations.
+  Welcome to NudgeShare's development blog. NudgeShare is a progressive web application designed to empower people to take control over their personal health. Its planned features are symptom checking, symptom tracking and health data visualisation. It will also be able to predict how your health might change in future based on past observations.
 lang: en-US # default lang
 timezone: Asia/Jakarta # set your timezone
 image: assets/img/ogp.png # This image used for Open Graph more info https://ogp.me/
@@ -12,7 +12,7 @@ mode: dark # default theme "dark" | "light"
 author:
   name: Jekyll Klisé # author name
   bio: >- # tell to the world
-    Welcome to NudgeShare's development blog. NudgeShare is a progressive web application designed to empower people to take control over their personal health. It's planned features are symptom checking, symptom tracking and health data visualisation. It will also be able to predict how your health might change in future based on past observations.
+    Welcome to NudgeShare's development blog. NudgeShare is a progressive web application designed to empower people to take control over their personal health. Its planned features are symptom checking, symptom tracking and health data visualisation. It will also be able to predict how your health might change in future based on past observations.
   username: username # general username
   github: github_username # github username
   twitter: twitter_username # twitter username
