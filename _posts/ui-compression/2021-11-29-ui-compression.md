@@ -52,7 +52,7 @@ What we aim for is a *minimal* component set. That is, a set of components (and 
 
 To create a minimal set, we start by simply observing our UI. We need to identify all of the commonalities and differences between widgets in the design.
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2012.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2012.png)
 
 ![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled.png)
 
