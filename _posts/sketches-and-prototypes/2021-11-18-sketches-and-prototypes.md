@@ -32,19 +32,19 @@ A prototype is a minimal implementation of a product that emphasises certain asp
 
 We started sketching alternative solutions by hand and with *MockFlow*. Users said our initial sketches felt cluttered so we constrained each page to a *single* function. Visibility was incorporated into later sketches by placing subtle arrows on clickable widgets. We used arrows rather than storyboards to represent flow, as they allowed users to freely explore the app’s structure (almost like a prototype).
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled.png)
 
 Colour of circle changes depending on score:
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%201.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%201.png)
 
 Tasks to help improve the users wellbeing (scrolled down). This is not necessarily how they'll be displayed — i.e. we could have a list of cards with titles, (possibly pictures) and a small description.
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%202.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%202.png)
 
 Similar design with more features filled in.
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%203.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%203.png)
 
 Icons changed to textless. Suggestion list incorporated into homepage. "Wellbeing" or "Your wellbeing" placed as header title rather than part of the home page. 
 
@@ -54,13 +54,13 @@ Another criticism is that this could easily overwhelm users. Having a long list 
 
 Dark theme mock-up 
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%204.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%204.png)
 
 Simplified design. Wellbeing score is given as a percentage. Cards are shown below to nudge the user. However, again, this to some extent still almost feels like a student's homework system. We want to motivate users into having greater agency over their wellbeing — it shouldn't just be a system which tells them what to do "nagging them essentially."
 
 Alternative design:  
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%205.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%205.png)
 
 Here the nudges are replaced with achievements. This is bound to be a more positive experience for the user. NudgeShare will nudge the user via notifications — and the app can serve as a place to focus on their achievements — progress rather than failure. This page will hold the achievements from the current or perhaps past two weeks. We could offer a more permanent store of their achievements somewhere else maybe.
 
@@ -70,21 +70,21 @@ Alternatively, we could just have two sections — one (the primary one) for ach
 
 Rough idea of what the visualisations page might contain.
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%206.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%206.png)
 
 Network page:
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%207.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%207.png)
 
 Sketches demonstrating app flow:
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%208.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%208.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%209.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%209.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2010.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2010.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2011.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2011.png)
 
 ## Creating Prototypes
 
@@ -97,24 +97,24 @@ We subsequently created a heuristic evaluation which took into account this feed
 
 Users found our second prototype substantially more engaging. We used vivid colours, larger icons and soft shapes to create a calm and friendly tone. We refined the flow to make primary features accessible within one tap. Lastly, we made each screen more distinct to increase memorability. Our screens are shown below:
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2012.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2012.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2013.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2013.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2014.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2014.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2015.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2015.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2016.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2016.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2017.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2017.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2018.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2018.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2019.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2019.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2020.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2020.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2021.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2021.png)
 
-![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2022.png)
+![Untitled](/assets/3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2022.png)
