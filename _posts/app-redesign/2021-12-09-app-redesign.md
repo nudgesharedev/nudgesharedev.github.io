@@ -10,15 +10,13 @@ As such, we underwent a major redesign of the app, making it centre more around 
 
 New prototype inspired by Ada:
 
-![Untitled](/assets/7%20App%20Redesign%209e48103127d14024a4a1c674eaa19cb4/Untitled.png)
-
-![Untitled](/assets/7%20App%20Redesign%209e48103127d14024a4a1c674eaa19cb4/Untitled%201.png)
+![Untitled](/assets/7%20App%20Redesign%201a31847f58bb4c3993dcc0d90aa08452/Untitled%201.png)
 
 This is a far simpler design but offers much more functionality due to being general purpose.
 
 This page is intended to show visualisations and insights about the user’s health progress. The more-menu will provide options such as “clear data”, “export data”, and “dark mode”.
 
-![Untitled](/assets/7%20App%20Redesign%209e48103127d14024a4a1c674eaa19cb4/Untitled%202.png)
+![Untitled](/assets/7%20App%20Redesign%201a31847f58bb4c3993dcc0d90aa0845/Untitled%202.png)
 
 ## UI Compression Again
 
