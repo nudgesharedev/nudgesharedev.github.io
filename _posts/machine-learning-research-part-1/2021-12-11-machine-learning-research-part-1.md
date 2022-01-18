@@ -12,7 +12,7 @@ As an infant, you're shown many examples of alphabet letters along with their la
 
 After a while the child begins to form abstract models of what makes something an A or a B or a C etc. With this, they can classify any letter, no matter the specific font, size or colour.
 
-![Untitled](8%20Machine%20Learning%20Research%20Part%201%203596b4b71d734722a0686cf855ffeb19/Untitled.png)
+![Untitled](/assets/8%20Machine%20Learning%20Research%20Part%201%203596b4b71d734722a0686cf855ffeb19/Untitled.png)
 
 We can perform virtually the same task with a computer and teach it to recognise letters, numbers, cats, human faces etc. 
 
@@ -27,7 +27,7 @@ While it may seem strange, recognising letters and predicting grades are actuall
 
 We're always trying to find an unknown relationship between inputs (features) and outputs (labels). We're just approximating a function.
 
-![Untitled](8%20Machine%20Learning%20Research%20Part%201%203596b4b71d734722a0686cf855ffeb19/Untitled%201.png)
+![Untitled](/assets/8%20Machine%20Learning%20Research%20Part%201%203596b4b71d734722a0686cf855ffeb19/Untitled%201.png)
 
 Thinking about supervised learning as an approximation problem is very powerful because it allows us to use existing maths from calculus and probability theory.
 
@@ -37,7 +37,7 @@ While the relationship between features and labels may be unknown, we can usuall
 
 Usually plotting data can help us tell which models might work.
 
-![A linear model is viable for this dataset](8%20Machine%20Learning%20Research%20Part%201%203596b4b71d734722a0686cf855ffeb19/Untitled%202.png)
+![A linear model is viable for this dataset](/assets/8%20Machine%20Learning%20Research%20Part%201%203596b4b71d734722a0686cf855ffeb19/Untitled%202.png)
 
 A linear model is viable for this dataset
 
