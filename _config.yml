@@ -33,10 +33,10 @@ collections:
     output: true
 
 # Markdown settings
-markdown: maruku
-#highlighter: rouge
-#kramdown:
-#  syntax_highlighter: rouge
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
 
 # Default front matter
 defaults:
