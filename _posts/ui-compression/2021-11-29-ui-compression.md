@@ -6,31 +6,31 @@ With designs in place, our first goal is define a set of reusable components whi
 
 ```html
 <div class='nav'>
-	<ul>
-		<li><a href=#home>Home</a></li>
-		<li><a href=#profile>Profile</a></li>
-		<li><a href=#messages>Messages</a></li>
-	</ul>
+  <ul>
+    <li><a href=#home>Home</a></li>
+    <li><a href=#profile>Profile</a></li>
+    <li><a href=#messages>Messages</a></li>
+  </ul>
 </div>
 <div class='main'>
-	<h1>Recent messages (1)</h1>
-	<div class='messages'>
-		<ul>
-			<li>
-				<div class='card'>
-					<div class='card-image'>
-						<img src='/static/uploads/images/users/382341948.png'>
-					</div>
-					<div class='card-content'>
-						<h3>Hey how are you?</h3>
-					</div>
-				</div>
-			</li>
-			<li>
-				...
-			</li>
-		</ul>
-	</div>
+  <h1>Recent messages (1)</h1>
+  <div class='messages'>
+    <ul>
+      <li>
+        <div class='card'>
+          <div class='card-image'>
+            <img src='/static/uploads/images/users/382341948.png'>
+          </div>
+          <div class='card-content'>
+            <h3>Hey how are you?</h3>
+          </div>
+        </div>
+      </li>
+      <li>
+        ...
+      </li>
+    </ul>
+  </div>
 ```
 
 This gives a verbose description of a “recent messages” view. We can drastically reduce code volume by taking into account redundancies. There are three main types to consider:
@@ -54,75 +54,75 @@ To create a minimal set, we start by simply observing our UI. We need to identif
 
 ![Untitled](3%20Sketches%20And%20Prototypes%20c58ba1012cce4c218b7e46080c9834dc/Untitled%2012.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%201.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%201.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%202.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%202.png)
 
 ### Redundancies
 
 (1.1) An image horizontally centred above a piece of text. Parameters (image widget, text widget)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%203.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%203.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%204.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%204.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%205.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%205.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%206.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%206.png)
 
 (1.2) Padding around sections.
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%207.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%207.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%208.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%208.png)
 
 (1.3) Icons next to text and a `>` symbol. Parameters (icon widget, text widget, whether to show `>`)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%209.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%209.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2010.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2010.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2011.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2011.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2012.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2012.png)
 
 (1.4) Various standard text sizes. Parameters (the type of text (e.g. heading, copy))
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2013.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2013.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2014.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2014.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2015.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2015.png)
 
 (1.5) Rounded box containing other widgets. Parameters (the child widgets)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2016.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2016.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2017.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2017.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2018.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2018.png)
 
 (1.6) Circular images. Parameters (the image)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2019.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2019.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2020.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2020.png)
 
 (1.7) Lists with dividers. Parameters (the child widgets)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2021.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2021.png)
 
 (1.8) An instance of (1.5) with (1) inside
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2022.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2022.png)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2023.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2023.png)
 
 (1.9) The recommendation cards. Parameters (category, description)
 
-![Untitled](4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2024.png)
+![Untitled](/assets/4%20UI%20Compression%201f74894286de4fbc911e33a70271ddd9/Untitled%2024.png)
 
 ## Second Draft
 
