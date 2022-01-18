@@ -52,7 +52,7 @@ To solve this problem, we increase each value in the feature vector by one. This
 
 Tree models divide up a dataset by making a series of explicit decisions depending on feature values. 
 
-![Untitled](10%20Machine%20Learning%20Research%20Part%203%2046c0bdc6fcfb4ebeb89501efbec389e7/Untitled.png)
+![Untitled](/assets/10%20Machine%20Learning%20Research%20Part%203%2046c0bdc6fcfb4ebeb89501efbec389e7/Untitled.png)
 
 In a decision tree classifier, leaf nodes (shown in colour), represent class predictions, i.e. "x is a cat." Nodes with children represent binary questions, i.e. "is x covered in fur?" 
 
