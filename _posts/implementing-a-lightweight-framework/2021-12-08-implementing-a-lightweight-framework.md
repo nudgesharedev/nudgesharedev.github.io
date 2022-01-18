@@ -13,7 +13,7 @@ import { when } from '/lib/indigo.js'
 import Text from '/components/Text.js'
 
 function App() {
-		const mouseX = when('mousemove', e => e.clientX)
+    const mouseX = when('mousemove', e => e.clientX)
 
     return Text(mouseX)
 }
@@ -29,43 +29,43 @@ We created a function called `shadow()` that adds proper encapsulation to compon
 
 function Grid(columns, ...children) {
 
-		return widget(
-				css`
-						:host {
-								display: grid;
-								grid-template-columns: repeat(1fr, ${columns});
-						}
-				`,
-				...children
-		)
+    return widget(
+        css`
+            :host {
+                display: grid;
+                grid-template-columns: repeat(1fr, ${columns});
+            }
+        `,
+        ...children
+    )
 }
 
 function Card(title, body) {
 
-		return widget(
-				css`
-						:host {
-								border-radius: 4px;
-								padding: 2rem;
-						}
-		
-						h1 {
-								font-size: 2rem;
-								color: #222;
-						}
-				`,
-				Heading(1, title),
-				Paragraph(body)
-		)
+    return widget(
+        css`
+            :host {
+                border-radius: 4px;
+                padding: 2rem;
+            }
+    
+            h1 {
+                font-size: 2rem;
+                color: #222;
+            }
+        `,
+        Heading(1, title),
+        Paragraph(body)
+    )
 }
 
 function App() {
 
-		return Grid(4,
-				Card('Hello', 'lorem ipsum'),
-				Card('World', 'ipsum lorem'),
-				Card('Foo', 'foo foo foo foo'),
-				Card('Bar', 'bar bar bar bar')
-		)
+    return Grid(4,
+        Card('Hello', 'lorem ipsum'),
+        Card('World', 'ipsum lorem'),
+        Card('Foo', 'foo foo foo foo'),
+        Card('Bar', 'bar bar bar bar')
+    )
 }
 ```
