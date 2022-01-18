@@ -16,7 +16,7 @@ This is a far simpler design but offers much more functionality due to being gen
 
 This page is intended to show visualisations and insights about the user’s health progress. The more-menu will provide options such as “clear data”, “export data”, and “dark mode”.
 
-![Untitled](/assets/7%20App%20Redesign%201a31847f58bb4c3993dcc0d90aa0845/Untitled%202.png)
+![Untitled](/assets/7%20App%20Redesign%201a31847f58bb4c3993dcc0d90aa08452/Untitled%202.png)
 
 ## UI Compression Again
 
